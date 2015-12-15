@@ -48,6 +48,6 @@ tweet = cleanup tweet_text.match(/^.{0,140}\b/)[0]
 markov.save_dictionary!
 
 # Save a running log of results
-File.open(PATH_TO_GENERATED, 'w') { |f| f.write("#{tweet}/n") }
+File.open(PATH_TO_GENERATED, 'a') { |f| f.write("#{tweet}\n") }
 
 puts tweet
