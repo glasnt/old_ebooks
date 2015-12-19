@@ -1,3 +1,6 @@
+# These files are either automatcally generated, or manually added setting up this code
+# It's generally not a good idea to commit these to GitHub, so let's ignore them.
+
 tweets.csv
 markov_dict.txt
 dictionary.mmd
