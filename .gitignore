@@ -4,5 +4,6 @@
 tweets.csv
 markov_dict.txt
 dictionary.mmd
+generated.txt
 
 Gemfile.lock
